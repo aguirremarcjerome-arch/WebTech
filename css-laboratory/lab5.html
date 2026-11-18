@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Web Development Topics</h1>
+    <div class="card-container">
+        <div class="card">
+            <h2>HTML</h2>
+            <p>HTML stands for HyperText Markup Language. It is used to create the structure of web pages.</p>
+
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Learn HTML</a>
+        </div>
+
+        <div class="card">
+            <h2>CSS</h2>
+            <p>CSS stands for Cascading Style Sheets. It is used to design and style web pages.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Learn CSS</a>
+        </div>
+
+        <div class="card">
+            <h2>JavaScript</h2>
+            <p>JavaScript is a programming language used to make web pages interactive.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Learn JavaScript</a>
+        </div>
+    </div>
+
+<style>
+* {box-sizing: border-box;}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 220px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.card h2 {color: #2563eb;}
+
+.card p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {text-decoration: underline;}
+
+</style>
+
+</body>
+</html>

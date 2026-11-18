@@ -1,0 +1,49 @@
+h1 {color: navy;}
+h2 {color: navy;;}
+#main-title {text-align: center;}
+
+.intro {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.card p {font-style: italic;}
+.car p {font-style: italic;}
+.ca p {font-style: italic;}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: gray;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.car {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: gray;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.ca {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: gray;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}

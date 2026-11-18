@@ -1,0 +1,1097 @@
+commit 358bbd1632e924aaa49ca4e31f3abe155f30e74f
+Author:     aguirremarcjerome-arch <aguirremarcjerome@gmail.com>
+AuthorDate: 2026-10-14 01:50:30 +0000
+Commit:     aguirremarcjerome-arch <aguirremarcjerome@gmail.com>
+CommitDate: 2026-10-14 01:50:30 +0000
+
+    Completed Emmet Laboratory Activity
+
+diff --git a/.vscode/settings.json b/.vscode/settings.json
+new file mode 100644
+index 0000000..6f3a291
+--- /dev/null
++++ b/.vscode/settings.json
+@@ -0,0 +1,3 @@
++{
++    "liveServer.settings.port": 5501
++}
+\ No newline at end of file
+diff --git a/HTML-LAB/about.html b/HTML-LAB/about.html
+new file mode 100644
+index 0000000..3ce2d76
+--- /dev/null
++++ b/HTML-LAB/about.html
+@@ -0,0 +1,53 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>
++        <br>==========
++        <br>ABOUT ME
++        <br>==========
++    </h1>
++    <img src="https://uc-bcf.instructure.com/files/11715835/download?download_frd=1&location=conversation_message_4994035&verifier=2fa8ded2-dd43-476f-9e41-e16d207b07e9" alt="profile" width="100">
++    <p>Hello! My name is Marc Jerome B. Aguirre, I'm 19 years old. I am a 2nd year Bachelor of Science in Information Technology (BSIT) major in Web Technologies studying in the University of the cordilleras.</p>
++
++    <h3>Educational Background:</h3>
++    <h4>Elementary</h4>
++    <ul>
++        <li>Pines Montessori School</li>
++    </ul>
++    <h4>Junior High School</h4>
++    <ul>
++        <li>Rizal National High School</li>
++    </ul>
++    <h4>Senior High School</h4>
++    <ul>
++        <li>University of the Cordilleras (STEM)</li>
++    </ul>
++
++    <h3>Career Goals:</h3>
++    <ul>
++        <li>Be Rich</li>
++        <li>Have Freedom</li>
++        <li>Acheive my dreams</li>
++        <li>Be Happy</li>
++    </ul>
++
++    <h3>Hobbies</h3>
++    <ul>
++        <li>Playing games</li>
++        <li>Listening to music</li>
++    </ul>
++
++    <h3>Interests</h3>
++    <ul>
++        <li>Technology</li>
++        <li>Programming</li>
++        <li>Web development/design</li>
++    </ul>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/contact.html b/HTML-LAB/contact.html
+new file mode 100644
+index 0000000..521a860
+--- /dev/null
++++ b/HTML-LAB/contact.html
+@@ -0,0 +1,42 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>
++        <br>============
++        <br>CONTACT ME
++        <br>============
++    </h1>
++
++    <form>
++
++        <label for="name">Name:</label>
++        <input type="text" id="name" name="name" required>
++
++        <br><br>
++
++        <label for="email">Email:</label>
++        <input type="text" id="email" name="email" required>
++
++        <br><br>
++
++        <label for="Subject">Subject:</label>
++        <input type="text" id="subject" name="subject" required>
++
++        <br><br>
++
++        <label for="message">Message:</label> <br>
++        <textarea name="message" id="message" rows="5" cols="30"></textarea>
++
++        <br><br>
++
++        <button type="submit">Submit</button>
++
++    </form>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/formatting.html b/HTML-LAB/formatting.html
+new file mode 100644
+index 0000000..ad67993
+--- /dev/null
++++ b/HTML-LAB/formatting.html
+@@ -0,0 +1,16 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++<p>
++    <strong>H20</strong> stands for
++    <em>E = mc2</em>.
++</p>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/images.html b/HTML-LAB/images.html
+new file mode 100644
+index 0000000..4b00844
+--- /dev/null
++++ b/HTML-LAB/images.html
+@@ -0,0 +1,18 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++<img 
++    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgv-Dafjs22eqNnTfjlcSKpUQqMmMdkoc_1tEmbMmygQ&s=10" 
++    alt="Profile Photo"
++    width="500"
++    height="500">
++<a href="images/">PRESS HERE</a>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/index.html b/HTML-LAB/index.html
+new file mode 100644
+index 0000000..8e6546a
+--- /dev/null
++++ b/HTML-LAB/index.html
+@@ -0,0 +1,26 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++<h1>
++    <br>==================
++    <br>MY PERSONAL PAGE
++    <br>==================
++</h1>
++<h2>Marc Jerome Aguirre</h2>
++<p>Bachelor of Science in Information Technology</p>
++    <br>-------------------------------
++    <h3>About Me</h3>
++    <p>I am a student interested in Web Development...</p>
++    <br>-------------------------------
++    <h3>My Hobbies</h3>
++    <p>I like playing video games and listening to music.</p>
++    <br>======================================
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/links.html b/HTML-LAB/links.html
+new file mode 100644
+index 0000000..7fbfac9
+--- /dev/null
++++ b/HTML-LAB/links.html
+@@ -0,0 +1,32 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++<html>
++<head>
++
++<body>
++
++<h1>
++<nav>
++    <nav style="font-size: x-large; font-weight: bold;">
++        <a href="index.html">HOME</a> |
++        <a href="about.html">ABOUT</a> |
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</nav>
++</h1>
++
++<nav>
++    <nav style="font-size: large;">
++    <a href="https://share.google/tO7qgWcitF0t8L9uo">Google</a> |
++    <a href="https://share.google/hNDTeIzYIuVPpnnwm">Youtube</a> |
++    <a href="https://share.google/pZUEKaqdCk37Uhjf1">GitHub</a> |
++    <a href="https://www.uc-bcf.edu.ph/">UC</a>
++    </nav>
++</nav>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/lists.html b/HTML-LAB/lists.html
+new file mode 100644
+index 0000000..b9c0af9
+--- /dev/null
++++ b/HTML-LAB/lists.html
+@@ -0,0 +1,43 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++<h2>A. Unordered List:</h2>
++<ul>
++    <li>Pizza</li>
++    <li>Burger</li>
++    <li>Fries</li>
++    <li>Donut</li>
++</ul>
++
++<h2>B. Ordered List:</h2>
++<ol>
++    <li>Javascript</li>
++    <li>Java</li>
++    <li>Python</li>
++    <li>C++</li>
++    <li>C#</li>
++</ol>
++
++<h2>C. Nested List:</h2>
++<li>
++    <li>Computer Science Programming</li>
++    <ol>Java</ol>
++    <ol>Python</ol>
++    <ol>PHP</ol>
++</li>
++
++<li>
++    <li>Web Development</li>
++    <ul>HTML</ul>
++    <ul>CSS</ul>
++    <ul>JavaScript</ul>
++</li>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/multimedia.html b/HTML-LAB/multimedia.html
+new file mode 100644
+index 0000000..d754ff2
+--- /dev/null
++++ b/HTML-LAB/multimedia.html
+@@ -0,0 +1,14 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgv-Dafjs22eqNnTfjlcSKpUQqMmMdkoc_1tEmbMmygQ&s=10" alt="Pikachu" width="200" height="200">
++    <audio controls src="https://www.myinstants.com/media/sounds/ndrrmc-alert-1.mp3"></audio>
++    <video controls src="https://www.facebook.com/100081795587841/videos/bulakenyong-friezafilipino-buset-group/1399438871162690/" width="300" height="200"></video>
++    <iframe src="https://wikipedia.org" frameborder="5"></iframe>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/portfolio.html b/HTML-LAB/portfolio.html
+new file mode 100644
+index 0000000..90b5a26
+--- /dev/null
++++ b/HTML-LAB/portfolio.html
+@@ -0,0 +1,27 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++<h1>
++<nav>
++    <nav style="font-size: x-large; font-weight: bold;">
++        <a href="index.html">HOME</a> |
++        <a href="about.html">ABOUT</a> |
++        <a href="skills.html">SKILLS</a> |
++        <a href="contact.html">CONTACT</a>
++    </nav>
++</nav>
++</h1>
++
++<h2>Marc Jerome B. Aguirre</h2>
++<img src="https://uc-bcf.instructure.com/files/11715835/download?download_frd=1&location=conversation_message_4994035&verifier=2fa8ded2-dd43-476f-9e41-e16d207b07e9" alt="profile" width="100">
++<p>Hello, I'm Marc Jerome Aguirre, a 2nd year BSIT student studying at the University of the Cordilleras</p>
++<h3>Welcome to my Student Portfolio!</h3>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/registration.html b/HTML-LAB/registration.html
+new file mode 100644
+index 0000000..a209d4d
+--- /dev/null
++++ b/HTML-LAB/registration.html
+@@ -0,0 +1,149 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <!DOCTYPE html>
++<html>
++<head>
++    <title>Student Registration Form</title>
++</head>
++
++<body>
++
++    <h1>Student Registration Form</h1>
++
++    <form>
++
++        <label for="fullname">Full Name:</label>
++        <input
++            type="text"
++            id="fullname"
++            name="fullname"
++            placeholder="Enter your full name"
++            minlength="2"
++            maxlength="50"
++            required
++        >
++        <br><br>
++
++        <label for="studentid">Student ID:</label>
++        <input
++            type="text"
++            id="studentid"
++            name="studentid"
++            placeholder="Enter your student ID"
++            required
++        >
++        <br><br>
++
++        <label for="email">Email:</label>
++        <input
++            type="email"
++            id="email"
++            name="email"
++            placeholder="example@email.com"
++            required
++        >
++        <br><br>
++
++        <label for="password">Password:</label>
++        <input
++            type="password"
++            id="password"
++            name="password"
++            placeholder="Enter your password"
++            minlength="8"
++            maxlength="20"
++            required
++        >
++        <br><br>
++
++        <label for="birthday">Birthday:</label>
++        <input
++            type="date"
++            id="birthday"
++            name="birthday"
++            required
++        >
++        <br><br>
++
++        <label>Gender:</label>
++        <br>
++
++        <input type="radio" id="male" name="gender" value="Male" required>
++        <label for="male">Male</label>
++
++        <input type="radio" id="female" name="gender" value="Female">
++        <label for="female">Female</label>
++
++        <input type="radio" id="other" name="gender" value="Other">
++        <label for="other">Other</label>
++
++        <br><br>
++
++        <label for="program">Program:</label>
++        <select id="program" name="program" required>
++            <option value="">Select Program</option>
++            <option value="bsit">Information Technology</option>
++            <option value="bscs">Computer Science</option>
++            <option value="bsda">Data Analytics</option>
++            <option value="bmma">Multimedia Arts</option>
++        </select>
++
++        <br><br>
++
++        <label>Hobbies:</label>
++        <br>
++
++        <input type="checkbox" id="reading" name="hobbies" value="Reading">
++        <label for="reading">Reading</label>
++
++        <input type="checkbox" id="gaming" name="hobbies" value="Gaming">
++        <label for="gaming">Gaming</label>
++
++        <input type="checkbox" id="sports" name="hobbies" value="Sports">
++        <label for="sports">Sports</label>
++
++        <input type="checkbox" id="music" name="hobbies" value="Music">
++        <label for="music">Music</label>
++
++        <br><br>
++
++        <label for="address">Address:</label>
++        <br>
++        <textarea
++            id="address"
++            name="address"
++            rows="2"
++            cols="40"
++            placeholder="Enter your complete address"
++            maxlength="200"
++            required
++        ></textarea>
++
++        <br><br>
++
++        <label for="comments">Comments:</label>
++        <br>
++        <textarea
++            id="comments"
++            name="comments"
++            rows="4"
++            cols="40"
++            placeholder="Enter your comments"
++            maxlength="500"
++        ></textarea>
++
++        <br><br>
++
++        <button type="submit">Submit</button>
++        <button type="reset">Reset</button>
++
++    </form>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/schedule.html b/HTML-LAB/schedule.html
+new file mode 100644
+index 0000000..ef9c521
+--- /dev/null
++++ b/HTML-LAB/schedule.html
+@@ -0,0 +1,39 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++<table border="1">
++
++   <tr>
++     <th>Day</th>
++     <th>Time</th>
++     <th>Subject</th>
++     <th>Room</th>
++     <th>Instructor</th>
++   </tr>
++
++   <tr>
++     <td>MW</td>
++     <td>8:50-10:10</td>
++     <td>Web Technologies</td>
++     <td>M307 (Lab)</td>
++     <td>Sir Prim</td>
++   </tr>
++
++   <tr>
++     <td>MWF</td>
++     <td>10:10-11:30</td>
++     <td>Web Technologies</td>
++     <td>G403 (Lec)</td>
++     <td>Sir Prim</td>
++   </tr>
++
++</table>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/HTML-LAB/semantic.html b/HTML-LAB/semantic.html
+new file mode 100644
+index 0000000..6975404
+--- /dev/null
++++ b/HTML-LAB/semantic.html
+@@ -0,0 +1,68 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++<html>
++<head>
++    <title>The Importance of Web Development Skills</title>
++</head>
++
++<body>
++
++    <header>
++        <h1>Web Development Skills</h1>
++        <p>Learning the skills needed to build websites and web applications.</p>
++    </header>
++
++    <nav>
++        <a href="#home">HOME</a> |
++        <a href="#article">ARTICLE</a> |
++        <a href="#about">ABOUT</a>
++    </nav>
++
++    <main id="home">
++
++        <section>
++
++            <article id="article">
++                <h2>The Importance of Web Development Skills</h2>
++
++                <p>
++                    Web development skills are important in today's digital world. Websites and web applications are used by businesses, schools, organizations, and individuals every day.
++                </p>
++
++                <p>
++                    Learning HTML, CSS, and JavaScript helps people create and design websites. These skills also develop creativity and logical thinking.
++                </p>
++
++                <p>
++                    Web development can provide many career opportunities. People with web development skills can work as web developers, designers, or programmers.
++                </p>
++
++                <p>
++                    In conclusion, learning web development is a valuable skill because it allows people to create useful websites, solve problems, and participate in the growing digital world.
++                </p>
++            </article>
++
++            <aside id="about">
++                <h3>Did You Know?</h3>
++                <p>
++                    HTML provides the structure of a webpage, CSS controls its appearance, and JavaScript adds interactivity.
++                </p>
++            </aside>
++
++        </section>
++
++    </main>
++
++    <footer>
++        <p>&copy; 2026 Web Development Skills</p>
++    </footer>
++
++</body>
++</html>
+diff --git a/HTML-LAB/skills.html b/HTML-LAB/skills.html
+new file mode 100644
+index 0000000..34ecded
+--- /dev/null
++++ b/HTML-LAB/skills.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++<table border="1">
++    <tr>
++        <th>Skill</th>
++        <th>Level</th>
++        <th>Experience</th>
++    </tr>
++
++    <tr>
++        <td>Java</td>
++        <td>Intermediate</td>
++        <td>1 Year</td>
++    </tr>
++
++    <tr>
++        <td>Python</td>
++        <td>Beginner</td>
++        <td>1 Month</td>
++    </tr>
++    
++    <tr>
++        <td>HTML</td>
++        <td>Beginner</td>
++        <td>2 Months</td>
++    </tr>
++</table>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..58ad4eb
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,11 @@
++<h1>Hello</h1>
++<h2></h2>
++<h2></h2>
++<p></p>
++<p></p>
++<p></p>
++<div></div>
++<header></header>
++<nav></nav>
++<main></main>
++<footer></footer>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..8696b13
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,54 @@
++<p class="introduction"></p>
++<div id="container"></div>
++<div class="card featured"></div>
++<section id="about" class="content-section"></section>
++
++<header>site-header</header>
++<nav>main-nav</nav>
++<main>content</main>
++<section>about</section>
++<footer>site-footer</footer>
++
++<ul>
++    <li></li>
++</ul>
++
++<nav>
++    <ul>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++        <li></li>
++    </ul>
++</nav>
++
++<h1></h1>
++<p></p>
++
++<h1></h1>
++<h2></h2>
++<p></p>
++<p></p>
++
++<li></li>
++<li></li>
++<li></li>
++<li></li>
++<li></li>
++
++<div></div>
++<div></div>
++<div></div>
++
++<p></p>
++<p></p>
++<p></p>
++<p></p>
++<p></p>
++
++<h1>Web Technologies</h1>
++<p>Welcome to my Webpage</p>
++
++<h1>My Web Development Journey</h1>
++<p>I am learning HTML, CSS, JavaScript, and web development</p>
+\ No newline at end of file
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..8f1cbdd
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,30 @@
++<ul>
++    <li class="item1"></li>
++    <li class="item2"></li>
++    <li class="item3"></li>
++    <li class="item4"></li>
++    <li class="item5"></li>
++</ul>
++
++<ul>
++    <li>Menu 1</li>
++    <li>Menu 2</li>
++    <li>Menu 3</li>
++    <li>Menu 4</li>
++    <li>Menu 5</li>
++</ul>
++
++<nav>
++    <ul>
++        <li><a href="#home">Home</a></li>
++        <li><a href="#about">About</a></li>
++        <li><a href="#portfolio">Portfolio</a></li>
++        <li><a href="#services">Services</a></li>
++        <li><a href="#contact">Contact</a></li>
++    </ul>
++</nav>
++
++<input type="text" placeholder="Enter your Name">
++<input type="email" placeholder="Enter your Email">
++<img src="image/profile.jpg" alt="Profile Photo">
++<a href="https://www.google.com">Google</a>
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..9ae0db4
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,101 @@
++<input type="text" name="" id="">
++<input type="email" name="" id="">
++<input type="password" name="" id="">
++<input type="checkbox" name="" id="">
++<input type="radio" name="" id="">
++<input type="submit" value="Submit">
++
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Student Registration Form</title>
++</head>
++<body>
++
++    <h1>Student Registration Form</h1>
++
++    <form>
++
++        <label for="studentId">Student ID:</label>
++        <input type="text" id="studentId" name="studentId" required>
++
++        <br><br>
++
++        <label for="fullName">Full Name:</label>
++        <input type="text" id="fullName" name="fullName" required>
++
++        <br><br>
++
++        <label for="email">Email:</label>
++        <input type="email" id="email" name="email" required>
++
++        <br><br>
++
++        <label for="password">Password:</label>
++        <input type="password" id="password" name="password" required>
++
++        <br><br>
++
++            <label>Gender:</label>
++            <br>
++
++            <label>
++                <input type="radio" name="gender" value="male">
++                Male
++            </label>
++
++            <label>
++                <input type="radio" name="gender" value="female">
++                Female
++            </label>
++
++            <label>
++                <input type="radio" name="gender" value="other">
++                Other
++            </label>
++
++        <br><br>
++
++        <label for="course">Course:</label>
++        <select id="course" name="course" required>
++            <option value="">Select Course</option>
++            <option value="it">Information Technology</option>
++            <option value="cs">Computer Science</option>
++            <option value="se">Multimedia Arts</option>
++        </select>
++
++        <br><br>
++
++            <label>Hobbies:</label>
++            <br>
++
++            <label>
++                <input type="checkbox" name="hobbies" value="sports">
++                Sports
++            </label>
++
++            <label>
++                <input type="checkbox" name="hobbies" value="music">
++                Music
++            </label>
++
++            <label>
++                <input type="checkbox" name="hobbies" value="gaming">
++                Gaming
++            </label>
++
++        <br><br>
++
++        <label for="address">Address:</label><br>
++        <textarea id="address" name="address" rows="5" cols="30"></textarea>
++
++        <br><br>
++
++        <button type="submit">Submit</button>
++
++    </form>
++
++</body>
++</html>
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..937a528
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,35 @@
++<header>
++    <h1>WEBSITE</h1>
++    <nav>
++        <ul>
++            <li><a href="#home">Home</a></li>
++            <li><a href="#about">About</a></li>
++            <li><a href="#contact">Contact</a></li>
++            <li><a href="#services">Services</a></li>
++        </ul>
++    </nav>
++</header>
++<main>
++    <section>
++        <article>1111111</article>
++    </section>
++</main>
++<footer>
++    <p>END</p>
++</footer>
++
++<div class="container">
++    <header>
++        <h1>My Portfolio</h1>
++            <p>Web Developer</p>
++            <nav>
++                <ul>
++                    <li><a href="">Menu 1</a></li>
++                    <li><a href="">Menu 2</a></li>
++                    <li><a href="">Menu 3</a></li>
++                    <li><a href="">Menu 4</a></li>
++                </ul>
++            </nav>
++        </h1>
++    </header>
++</div>
+\ No newline at end of file
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..2c5cd90
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..afb0e28
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,111 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Student Portfolio</title>
++</head>
++<body>
++
++    <header>
++        <h1>Marc Jerome B. Aguirre</h1>
++        <p>Hello! I am a college student with a passion for information technology and web development.</p>
++
++            <a href="#home">HOME</a> |
++            <a href="#about">ABOUT</a> |
++            <a href="#skills">SKILLS</a> |
++            <a href="#projects">PROJECTS</a> |
++            <a href="#contact">CONTACT</a>
++    </header>
++
++    <main>
++
++        <section id="home">
++            <h2>Home</h2>
++            <p>Welcome to my student portfolio! My name is Marc Jerome B. Aguirre, I am 19 years old. I am a 2nd year Bachelor of Science in Information Technology (BSIT) student Major in Web Technologies studying at the University of the Cordilleras.</p>
++        </section>
++
++        <section id="about">
++            <h2>About Me</h2>
++
++            <img src="https://uc-bcf.instructure.com/files/11715835/download?download_frd=1&location=conversation_message_4994035&verifier=2fa8ded2-dd43-476f-9e41-e16d207b07e9" alt="Profile picture" width="100">
++
++            <p>
++                I am a student interested in information technology and web development. I enjoy learning programming, playing video games, and listening to music.
++            </p>
++        </section>
++
++        <section id="skills">
++            <h2>Skills</h2>
++
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>Python</li>
++                <li>Java</li>
++                <li>MySQL</li>
++                <li>Git</li>
++            </ul>
++        </section>
++
++        <section id="projects">
++            <h2>Projects</h2>
++
++            <div class="project-card">
++                <h3>Student Registration Form</h3>
++                <p>
++                    A web-based system designed to collect and manage
++                    student registration information.
++                </p>
++                <a href="04-form.html">View Project</a>
++            </div>
++
++            <div class="project-card">
++                <h3>Personal Portfolio</h3>
++                <p>
++                    A personal website showcasing my skills, projects,
++                    and experience as a student.
++                </p>
++                <a href="portfolio.html">View Project</a>
++            </div>
++
++        </section>
++
++        <section id="contact">
++            <h2>Contact Me</h2>
++
++            <form>
++
++                <label for="name">Name:</label>
++                <input type="text" id="name" name="name" required>
++
++                <br><br>
++
++                <label for="email">Email:</label>
++                <input type="email" id="email" name="email" required>
++
++                <br><br>
++
++                <label for="subject">Subject:</label>
++                <input type="text" id="subject" name="subject" required>
++
++                <br><br>
++
++                <label for="message">Message:</label><br>
++                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
++
++                <br><br>
++
++                <button type="submit">Submit</button>
++
++            </form>
++        </section>
++
++    </main>
++
++    <footer>
++        <p>&copy; 2026 - Marc Jerome B. Aguirre</p>
++    </footer>
++
++</body>
++</html>
+\ No newline at end of file
+diff --git a/readme.md b/readme.md
+index 05577c1..b4158c4 100644
+--- a/readme.md
++++ b/readme.md
+@@ -1 +1 @@
+-efe
++I
+\ No newline at end of file
+
+commit 57bd7bd22766a4e5f37f77e11c9ae32e8939f214
+Author:     aguirremarcjerome-arch <aguirremarcjerome@gmail.com>
+AuthorDate: 2026-09-21 09:57:46 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-21 09:57:46 +0800
+
+    Create readme.md
+
+diff --git a/readme.md b/readme.md
+new file mode 100644
+index 0000000..05577c1
+--- /dev/null
++++ b/readme.md
+@@ -0,0 +1 @@
++efe

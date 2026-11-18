@@ -1,0 +1,59 @@
+--lab1.html--
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+--lab2.html--
+body {font-family: Arial, sans-serif;}
+
+h1 {color: navy; text-transform: uppercase;}
+#page-title {text-align: center;}
+
+.card {
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.card p {color: #444444;}
+
+.highlight {color: red;}
+
+h2, h3 {
+    color: green;
+    text-align: center;
+}
+
+--lab3.html--
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    color: darkblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: darkgreen;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {line-height: 1.8;}
+
+a {
+    color: #145da0;
+    text-decoration: none;
+}
+
+a:hover {text-decoration: underline;}
